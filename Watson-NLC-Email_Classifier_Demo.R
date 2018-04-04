@@ -5,7 +5,7 @@
 ### GROUND TRUTH IS VERY LIGHT - HANDLE WITH CARE - was authored in 20 minutes and contains NO real world data
 ### Could be used to BOOTSTRAP actual data - best practices are to use REAL WORLD Data for training
 ### HANDBOOK Natural Language Classifier (NLC) Handbook: https://ibm.box.com/s/rdlog2sue79178816s0rabkbi7ifu5vg 
-### Video #1 - Training - 
+### Video #1 - Training - https://www.youtube.com/watch?v=nrD37M39QnA
 ### Video #2 - Testing - https://youtu.be/kBx6reEj4Gg
 ### Training Data - Ground truth: https://github.com/rustyoldrake/NLC_ground_truth_wonderland/blob/master/ground_truth_gt_NLC_example_email_sort.csv
 ### This R code lives here https://github.com/rustyoldrake/NLC_ground_truth_wonderland
