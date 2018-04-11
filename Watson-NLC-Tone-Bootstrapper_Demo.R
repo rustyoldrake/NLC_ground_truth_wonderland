@@ -113,7 +113,7 @@ watson.nlc.listallclassifiers()  # check it's gone
 
 ###### ACTION: Create a new CLassifier!  (200 = Good outcome) - 
 thename <- "\"NLC_ground_truth_open_emotion3\""   #
-thefile <- "ground_truth_open_emotion3.csv" #  
+thefile <- "emotion_NLC_ground_truth_v3.csv" #  
 watson.nlc.createnewclassifier(thefile,thename)  # calls function, passes file and name from above, starts the magic. might take 2 to 20+ minutes depending on complexityclassifier_id" : "563C46x19-nlc-377",
 
 #   "classifier_id" : "ab2aa6x341-nlc-201",
@@ -130,13 +130,7 @@ watson.nlc.checkclassifierstatus(classifierA)
 
 
 # LIGHT MANUAL TESTING
-query <- "Dear Bank ABC - can you help me reset my username and password?  My computer fell in a lake"
-watson.nlc.processtextreturnclass(classifierA,query)
-
-query <- "i have problems getting access"
-watson.nlc.processtextreturnclass(classifierA,query)
-
-query <- "i have problems"
+query <- "i have problems and am feeling blue"
 watson.nlc.processtextreturnclass(classifierA,query)
 
 query <- "you are the best bank on the planet!"
